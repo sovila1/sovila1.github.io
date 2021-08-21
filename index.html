@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ez egy szuper oldal</title>
+</head>
+<body>
+<ul>
+    <li>
+        <a href="/index.html">Főoldal</a>
+    </li>
+
+    <li>
+        <a href="/pages/products.html">Product</a>
+    </li>
+
+    <li>
+        <a href="/pages/orders.html">orders</a>
+    </li>
+
+    <li>
+        <a href="/about.html">about</a>
+    </li>
+</ul>
+
+
+
+<table>
+    <caption>Nyitva tartás (síma táblázat;tr - td)</caption>
+    <tr> 
+        <td>Hétfő-Péntek</td>
+        <td>Nyit: 9:00</td>
+        <td>Zár: 19:00</td>  
+    </tr>
+
+    <tr>
+        <td>szombat
+            <td>Nyit: 9:00</td>
+            <td>Zár: 12:00</td>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Vasárnap:</td>
+        <td>Zárva</td>
+    </tr>
+</table>
+
+<p></p>
+
+<table>
+    <caption>Fejlécneves táblázat (thead [tr-th], tbody [tr-td])</caption>
+    <thead>
+        <tr>
+            <th>Day</th>
+            <th>Open</th>
+            <th>Close</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>szombat
+                <td>Nyit: 9:00</td>
+                <td>Zár: 12:00</td>
+            </td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">
+                &copy; 2019 (az a lábléc)
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+<p></p>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Day</th>
+            <th>Open</th>
+            <th>Close</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>monday-friday</td>
+            <td>9:00</td>
+            <td rowspan="2">21:00</td>
+        </tr>
+        <tr>
+            <td>szombat</td>
+            <td>10:00</td>
+        </tr>
+        <tr>
+            <td>vasárnap</td>
+            <td colspan="2">Zárva</td>
+        </tr>
+    </tbody>
+</table>
+
+    <h1>
+        <i> 
+           <b> Fantastic Burger </b>
+        </i>
+    </h1>
+    
+    
+    <h2>Rossz bullett megoldás:</h2>
+    <ul>
+         <li>
+            burger 1
+            burger 2
+                Figyelem itt nincs mindenhol francia bullet point. Ha nincs minden listaelem a li-ben, akkor nem lesz szép. Sőt! Ebben a formában egy sorba teszi.
+        </li>
+    </ul>
+    
+    <h2>Jó bullett megoldás:</h2>
+    <ul>
+        <li>hamburger 1</li>
+        <li>hamburger 2</li> 
+        <li>hamburger 3</li> 
+        <li>    itt van mindenhol francia bullet pont, így szép és külön sorokba teszi</li>
+   </ul>
+
+
+
+    <h2>Step of order/A rendelés lépései ( jó megoldás: )</h2>
+    <ol>
+        <li>Choose a burger</li>
+        <li>Buy it</li>
+        <li>Give you address</li>
+        <li>Eat it</li> 
+    </ol>
+
+    <h2>Beágyazott lista (bekezdésekkel)</h2>
+    <ul>
+        <li>lista 1
+            <ul>
+                <li>lista 2</li>
+                <li>lista 3</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Kép html linkkel:</h2>
+        <img width = "700" src="https://codeberryschool.com/blog/wp-content/uploads/2021/05/html_featured-1280x640.png" alt="HTML kép">
+    
+    <h2>Kép saját gépemről linkkel:</h2>
+        <img width = "700" src="/img/HTMLkép.png" alt="HTML kép az enyém, nincs szerződi jogdíj probléma (a gépemről)">
+ 
+
+    <h2>Root HTML link:</h2>
+    <h1>
+        <a 
+        href="/about.html">Ez itt egy roote url (Abot me), nincs külön mappában
+        </a>
+    </h1>
+    
+
+    <h2>Root HTML link:</h2>
+    <h3>
+    <a href="/pages/orders.html">orders oldal</a>
+    </h3>
+
+    <p>Ez egy sortörés (p)</p>
+
+    <h2>Formázott link (kép kisebb pixelben mérve, a másik weboldal megnyitásakor az enyém is nyitva marad):</h2>
+    <h4>
+        <a 
+            target ="Blank" href="https://www.w3schools.com/html/default.asp">HTML iskola, https://www.w3schools.com/html/default.asp
+            <img width = "200" src="/img/HTMLkép.png" alt="HTML kép az enyém, nincs szerződi jogdíj probléma (a gépemről)">
+        </a>
+    </h4>   
+
+
+
+
+
+</body>
+</html>
